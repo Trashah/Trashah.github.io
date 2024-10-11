@@ -1,0 +1,20 @@
+<a> </a> Definir y crear un hiperlink
+
+<a href = "www.google.com"> Busca tu respuesta </a>
+<a href = "www.google.com" title = "Aquí encuentras tu tarea"> Busca tu respuesta </a>
+
+<img> Insertar una imagen
+
+<img src = "URL Absoluta">
+<img src = "URL Relativa">
+
+<img src = "valor" height = "Valor en pixeles" / "x%" width = "Valor en pixeles" / "x%">
+<img src = "valor" alt = "Texto alternativo en la imagen">
+
+<!-- Comentario -->
+
+Practica 2
+
+Un link con title
+Imagen con alt
+Un comentario
