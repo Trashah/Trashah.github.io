@@ -1,0 +1,41 @@
+<table> - Tabla
+<th> - Cabecera de tabla
+<tr> - Fila en la tabla
+<caption> Define el nombre o título de la tabla
+<colgroup> Específica un grupo de una o más columnas
+<col> Específica las propiedades de una columna o un elemento colgroup
+<thead> Define la cabecera de la tabla
+<tbody> Define el cuerpo de la tabla
+<tfoot> Define el pie de la tabla
+
+<table border = "1">
+<caption> Tabla Ejemplo </caption>
+
+<tr>
+<th> Nombre columna 1 </th>
+<th> Nombre columna 2 </th>
+</tr>
+
+<tr>
+<td> Celda 1 </td>
+<td> Celda 2 </td>
+</tr>
+
+</table>
+
+<table>
+<caption> Tabla Combinada </caption>
+
+<tr>
+<th colspan = "2"> Celda combinada 1 </th>
+<th> Celda simple 1 </th>
+<th colspan = "2"> Celda combinada 2 </th>
+</tr>
+
+<tr>
+<td> Valor 1 </td>
+<td> Valor 2 </td>
+<td> Valor 3 </td>
+<td colspan = "2"> Valor 4 </td>
+<td> Valor 5 </td>
+</tr>

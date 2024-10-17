@@ -1,0 +1,15 @@
+<ul> - Lista desordenada
+	<li> Elemento de lista </li>
+</ul>
+
+<ol type = "[1: a, 2: A, 3: i, 4: I]" start = "5, 10, 100" reversed> - Lista ordenada
+	<li>
+</ul>
+
+Title = Practica 3
+Encabezado = Listas
+Lista desordenada con 3 ordenadas dentro
+
+a, b, c
+3, 2, 1
+X, XI, XII
