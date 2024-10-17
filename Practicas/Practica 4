@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang = "es">
+  
+  <head>
+    
+    <title>Práctica 4</title>
+    
+  </head>
+  
+  <body>
+    
+      <h1> Práctica 4 </h1>
+      <br>
+      
+      <table border = "1">
+        
+        <caption> <b> TABLA HORARIO </b> </caption>
+        
+        <thead>
+          
+          <tr>
+            
+            <th colspan = "6" > SÉPTIMO SEPTIEMBRE </th>
+            
+          </tr>
+          
+          <tr>
+            
+            <th rowspan= "2"> HORA </th>
+            <th colspan= "5"> DÍAS DE LA SEMANA </th>
+            
+          </tr>
+          
+          <tr>
+            
+            <th> Lunes </th>
+            <th> Martes </th>
+            <th> Miércoles </th>
+            <th> Martes </th>
+            <th> Viernes </th>
+            
+          </tr>
+          
+        </thead>
+        
+        <tbody>
+          
+          <tr>
+            
+            <td> 7 - 8 </td>
+            <td> Taller de Investigación </td>
+            <td> Taller de Investigación </td>
+            <td> Taller de Investigación </td>
+            <td> Taller de Investigación </td>
+            <td rowspan = "3"> Dormir </td>
+            
+          </tr>
+          
+        </tbody>
+        
+      </table>
+      
+  </body>
+  
+</html>
