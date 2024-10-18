@@ -1,2 +1,2 @@
-[(trashah.github.io)
+[trashah.github.io
 ](https://trashah.github.io)
