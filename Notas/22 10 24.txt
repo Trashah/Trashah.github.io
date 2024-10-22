@@ -1,0 +1,55 @@
+<form> </form> Permite crear formularios
+
+<input type = "text, password, checkbox, submit, reset, file" size = "" name = "" value = ""> </input>
+
+<textarea rows = "" cols = "" name =""> </textarea>
+
+<p>
+
+  Deje un mensaje <br>
+  <textarea rows = "10" cols = "50"> </textarea>
+
+</p>
+
+<input type = "checkbox" id = "identificador" name = "nombre" checked = "checked"> </input>
+
+<p>
+
+Seleccione, ¿cúal te gusta mas? <br>
+
+  <input type = "checkbox" name = "FBD"> Fundamentos de BD <br>
+  <input type = "checkbox" name = "TBD"> Taller de BD <br>
+  <input type = "checkbox" name = "ABD"> Administracion de BD <br>
+
+</p>
+
+Seleccione, ¿cúal te gusta mas? <br>
+
+  <input type = "round" value = "FBD"> Fundamentos de BD <br>
+  <input type = "round" value = "TBD"> Taller de BD <br>
+  <input type = "round" value = "ABD"> Administracion de BD <br>
+
+</p>
+
+<select name = "nombre" size = "valoresvisibles" multiple>
+
+size solo si quiero que sea NO desplegable
+multiple para selección multiple
+
+  <option label = "etiqueta"> </option>
+
+</select>
+
+<p>
+
+  <select>
+  
+    <option> FBD </option>
+    <option> selected = "selected"> TBD </option>
+    <option> ABD </option>
+    
+  </select>
+  
+</p>
+
+<input type = "submit" value "Texto botón"/>
