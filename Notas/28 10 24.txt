@@ -1,2 +1,6 @@
 <header> </header> Encabezado
 <nav> Especifica un conjunto de vínculos de navegación.
+<article>
+<section>
+<aside>
+<footer>
