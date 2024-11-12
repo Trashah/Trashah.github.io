@@ -31,6 +31,13 @@ function imprimirNumeroGlobalYLocal2() {
 
 <html>
 
+    <head>
+
+        <title> Segunda Sesión </title>
+        <meta charset = "UTF-8">
+
+    </head>
+
     <body>
 
         <?php imprimirMensajeLocal(); ?>
