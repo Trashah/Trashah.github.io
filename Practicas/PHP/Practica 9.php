@@ -4,7 +4,7 @@
 
 	<head>
 
-		<title> Séptima Secuencia </title>
+		<title> Séptima Secuencia</title>
 		<meta charset = "UTF-8">
 
 	</head>
@@ -13,7 +13,7 @@
 
 		<?php
 			
-			require "config.php";
+			require ("config.php");
 
 			echo "<h2>Práctica 7: Creacion de una base de datos</h2>";
 			echo "<br> <br>";
@@ -25,7 +25,7 @@
 			$consulta = "CREATE DATABASE $nombreNuevaBaseDeDatos";
 
 			if ($resultado = mysqli_query($conexion,$consulta)) {
-				echo "La base de datos $nombreNuevaBaseDeDatos, ha sido creada de forma exitosa";
+				echo "La base de datos $nombreNuevaBaseDeDatos, ha sido creata de forma exitosa";
 				echo "<br>";
 				echo "El script utilizado fue: $consulta";
 			}

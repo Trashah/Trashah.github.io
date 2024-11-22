@@ -4,7 +4,7 @@
 
 	<head>
 
-		<title> Séptima Secuencia </title>
+		<title> Octava Ofrenda </title>
 		<meta charset = "UTF-8">
 
 	</head>
@@ -15,23 +15,23 @@
 			
 			require "config.php";
 
-			echo "<h2>Práctica 7: Creacion de una base de datos</h2>";
+			echo "<h2>Práctica 8: Eliminación de una base de datos</h2>";
 			echo "<br> <br>";
 
 			$conexion = mysqli_connect($servidor,$usuario,$password,$baseDeDatos);
 
-			$nombreNuevaBaseDeDatos = "Programacion_Web_Uriel_php_Nuevo";
+			$baseDeDatos = "Programacion_Web_Uriel_php_Nuevo";
 
-			$consulta = "CREATE DATABASE $nombreNuevaBaseDeDatos";
+			$consulta = "DROP DATABASE $baseDeDatos";
 
 			if ($resultado = mysqli_query($conexion,$consulta)) {
-				echo "La base de datos $nombreNuevaBaseDeDatos, ha sido creada de forma exitosa";
+				echo "La base de datos $baseDeDatos, ha sido eliminada de forma exitosa";
 				echo "<br>";
 				echo "El script utilizado fue: $consulta";
 			}
 
 			else {
-				"La base de datos $nombreNuevaBaseDeDatos no se ha podido crear" . mysqli_error($conexion);
+				"La base de datos $baseDeDatos no se ha podido eliminar" . mysqli_error($conexion);
 			}
 
 			mysqli_close($conexion);
