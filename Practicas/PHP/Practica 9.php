@@ -19,6 +19,7 @@
 			echo "<br> <br>";
 
 			$baseDeDatos = "Programacion_Web_Uriel_php_Nuevo";
+
 			$tabla = "Juegazos";
 
 			$consulta = "CREATE TABLE $tabla (

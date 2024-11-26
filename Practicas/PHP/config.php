@@ -5,7 +5,7 @@
     $servidor = "localhost";
     $usuario = "root";
     $password = "";
-    $baseDeDatos = "Programacion_Web_Uriel_php";
+    $baseDeDatos = "Programacion_Web_Uriel_php_Nuevo";
 
 	$conexion = mysqli_connect($servidor,$usuario,$password,$baseDeDatos);
     
