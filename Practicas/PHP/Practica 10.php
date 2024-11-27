@@ -18,7 +18,6 @@
 			echo "<h2>Práctica 10: Consulta de las bases de datos en un servidor MySQL </h2>";
 			echo "<br> <br>";
 
-			$baseDeDatos = "Programacion_Web_Uriel_php_Nuevo";
 			$conexion = mysqli_connect($servidor,$usuario,$password,$baseDeDatos);
 
 			$consulta = "SHOW DATABASES";
